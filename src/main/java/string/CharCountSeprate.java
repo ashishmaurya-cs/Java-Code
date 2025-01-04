@@ -1,4 +1,4 @@
-package com.ashish;
+package string;
 
 public class CharCountSeprate {
 	public static void main(String[] args) {
@@ -8,7 +8,6 @@ public class CharCountSeprate {
 		StringBuilder  result = new  StringBuilder();
 
 		for (int i = 1; i < str.length(); i++) {
-
 			if (str.charAt(i) == str.charAt(i-1)) {
 				count = count + 1;
 

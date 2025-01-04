@@ -1,4 +1,4 @@
-package com.ashish;
+package string;
 
 public class ReverseStringKeepSpecialCharPosition {
 	public static void main(String[] args) {
