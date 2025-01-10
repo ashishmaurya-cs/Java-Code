@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CharOccurence {
-	public static void main(String[] args) {
-		String s ="Ramashish".toLowerCase();
+	public static void charOccuranceUsingHAshMap(String s){
+		s.toLowerCase();
 		
 		HashMap<Character, Integer> map = new  HashMap<Character, Integer>();
 		
@@ -16,6 +16,13 @@ public class CharOccurence {
 		for(Map.Entry<Character, Integer> m : map.entrySet()) {
 			System.out.println(m.getKey()+" "+m.getValue());
 		}
+	}
+	public static void main(String[] args) {
+		String s ="Ramashish";
+		
+		charOccuranceUsingHAshMap(s);
+		
+		
 	}
 
 }
